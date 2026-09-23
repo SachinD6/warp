@@ -59,7 +59,7 @@ CI (`.github/workflows/ci.yml`) runs exactly these, path-filtered — only the p
 
 ### Fork PRs and CI
 
-First-time fork PRs sit at GitHub `action_required` until a maintainer clicks **Approve workflow**. That is expected — CI has not failed; it has not run yet.
+Fork PR workflows may remain in GitHub's `action_required` state while awaiting maintainer approval. That is expected — CI has not failed; it has not run yet.
 
 If it has been more than a day, ping in the PR. Do not try to "fix" CI that has not run.
 
